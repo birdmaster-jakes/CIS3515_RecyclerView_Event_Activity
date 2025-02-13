@@ -25,6 +25,8 @@ class MainActivity : AppCompatActivity() {
         }
 
         // Todo (Step 3: Pass lambda to adapter)
+        //The lambda we defined in callBack could instead be attached directly to recyclerView object here
+        //Put brackets out side parenthesis at the end
         recyclerView.adapter = NumberDisplayAdapter(numbers, callBack)
 
 
